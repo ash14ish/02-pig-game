@@ -42,6 +42,7 @@ const switchPlayer = function () {
   document.querySelector(`#current-${activePlayer}`).textContent = 0;
   currentScore = 0;
   activePlayer = activePlayer === 1 ? 2 : 1;
+  console.log(activePlayer);
   plyr1.classList.toggle("active");
   plyr2.classList.toggle("active");
 };
@@ -67,7 +68,7 @@ bHold.addEventListener("click", function () {
     total[activePlayer - 1] += currentScore;
     document.getElementById(`score${activePlayer}`).textContent =
       total[activePlayer - 1];
-    if (total[activePlayer - 1] <= 10) {
+    if (total[activePlayer - 1] <= 100) {
       switchPlayer();
     } else {
       document.querySelector(`.player${activePlayer}`).classList.add("winner");
