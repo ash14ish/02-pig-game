@@ -51,7 +51,7 @@ bDice.addEventListener("click", function () {
   if (playing) {
     let roll = Math.trunc(Math.random() * 6) + 1;
 
-    dice.src = `./dice/dice-${roll}.png`;
+    dice.src = `dice-${roll}.png`;
     dice.classList.remove("hidden");
 
     if (roll !== 1) {
