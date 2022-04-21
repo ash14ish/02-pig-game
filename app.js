@@ -1,5 +1,13 @@
 "use strict";
 
+import dice1 from "url:./dice/dice-1.png";
+import dice2 from "url:./dice/dice-2.png";
+import dice3 from "url:./dice/dice-3.png";
+import dice4 from "url:./dice/dice-4.png";
+import dice5 from "url:./dice/dice-5.png";
+import dice6 from "url:./dice/dice-6.png";
+
+const diceImg = [dice1, dice2, dice3, dice4, dice5, dice6];
 let current1 = document.getElementById("current-1");
 let current2 = document.getElementById("current-2");
 
@@ -23,10 +31,10 @@ const init = function () {
   activePlayer = 1;
   currentScore = 0;
 
-  document.getElementById("current-1").textContent = "0";
-  document.getElementById("current-2").textContent = "0";
-  document.getElementById("score1").textContent = "0";
-  document.getElementById("score2").textContent = "0";
+  current1.textContent = "0";
+  current2.textContent = "0";
+  score1.textContent = "0";
+  score2.textContent = "0";
   plyr1.classList.remove("winner");
   plyr2.classList.remove("winner");
   dice.classList.add("hidden");
@@ -42,7 +50,7 @@ const switchPlayer = function () {
   document.querySelector(`#current-${activePlayer}`).textContent = 0;
   currentScore = 0;
   activePlayer = activePlayer === 1 ? 2 : 1;
-  console.log(activePlayer);
+  // console.log(activePlayer);
   plyr1.classList.toggle("active");
   plyr2.classList.toggle("active");
 };
@@ -50,8 +58,8 @@ const switchPlayer = function () {
 bDice.addEventListener("click", function () {
   if (playing) {
     let roll = Math.trunc(Math.random() * 6) + 1;
-
-    dice.src = `./dice/dice-${roll}.png`;
+    // console.log(diceImg);
+    dice.src = diceImg[roll - 1];
     dice.classList.remove("hidden");
 
     if (roll !== 1) {
