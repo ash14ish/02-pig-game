@@ -57,6 +57,25 @@ main {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 1000px) {
+  body {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+    width: 100vh;
+    height: 100vw;
+  }
+
+  .playerID {
+    position: relative;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+}
+
 .score {
   font-size: 8rem;
   font-weight: 300;
