@@ -210,13 +210,12 @@ main {
   }
 
   body {
-    display: block;
     width: 100vw;
   }
 
   main {
-    width: 90vw;
-    height: 90vh;
+    width: 85vw;
+    height: 85vh;
     margin: 0.2rem auto;
     border-radius: 9px;
     flex-direction: column;
