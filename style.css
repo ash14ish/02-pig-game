@@ -164,7 +164,7 @@ main {
 
 .winner {
   /* background-color: #2f2f2f; */
-  animation: blinking 600ms 10 ease-in;
+  animation: blinking 400ms 10 linear forwards normal;
 }
 
 .winner .playerID {
