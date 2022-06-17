@@ -186,7 +186,7 @@ main {
 
 @media (max-width: 480px) {
   main {
-    flex-direction: column;
+    /* flex-direction: column; */
     height: 60vh;
     width: 90vw;
     align-content: flex-end;
