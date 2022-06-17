@@ -244,11 +244,8 @@ main {
     top: -5rem;
   }
 
-  /* .player1 {
-  } */
-
   .dice {
-    top: calc(50% - 5.3rem / 2);
+    top: calc(50% - 8.3rem / 2);
     border-radius: 4px;
     height: 5.3rem;
   }
