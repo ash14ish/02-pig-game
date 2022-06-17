@@ -1,13 +1,13 @@
 "use strict";
 
-import dice1 from "url:./dice/dice-1.png";
-import dice2 from "url:./dice/dice-2.png";
-import dice3 from "url:./dice/dice-3.png";
-import dice4 from "url:./dice/dice-4.png";
-import dice5 from "url:./dice/dice-5.png";
-import dice6 from "url:./dice/dice-6.png";
+// import dice1 from "url:./dice/dice-1.png";
+// import dice2 from "url:./dice/dice-2.png";
+// import dice3 from "url:./dice/dice-3.png";
+// import dice4 from "url:./dice/dice-4.png";
+// import dice5 from "url:./dice/dice-5.png";
+// import dice6 from "url:./dice/dice-6.png";
 
-const diceImg = [dice1, dice2, dice3, dice4, dice5, dice6];
+// const diceImg = [dice1, dice2, dice3, dice4, dice5, dice6];
 let current1 = document.getElementById("current-1");
 let current2 = document.getElementById("current-2");
 
@@ -59,7 +59,8 @@ bDice.addEventListener("click", function () {
   if (playing) {
     let roll = Math.trunc(Math.random() * 6) + 1;
     // console.log(diceImg);
-    dice.src = diceImg[roll - 1];
+    // dice.src = diceImg[roll - 1];
+    dice.src = `./dice/dice-${roll}.png`;
     dice.classList.remove("hidden");
 
     if (roll !== 1) {
@@ -77,7 +78,7 @@ bHold.addEventListener("click", function () {
     total[activePlayer - 1] += currentScore;
     document.getElementById(`score${activePlayer}`).textContent =
       total[activePlayer - 1];
-    if (total[activePlayer - 1] <= 100) {
+    if (total[activePlayer - 1] <= 10) {
       switchPlayer();
     } else {
       document.querySelector(`.player${activePlayer}`).classList.add("winner");
