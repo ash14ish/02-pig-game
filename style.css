@@ -183,6 +183,7 @@ main {
 @media (max-width: 480px) {
   body {
     width: 100vw;
+    height: 100vh;
   }
 
   .playerID {
@@ -213,8 +214,8 @@ main {
   }
 
   main {
-    width: 85vw;
-    height: 85vh;
+    width: 80vw;
+    height: 80vh;
     margin: 0.2rem auto;
     border-radius: 9px;
     display: grid;
