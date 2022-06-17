@@ -255,11 +255,12 @@ main {
   }
 
   .roll {
-    top: 3rem;
-    left: 10vw;
+    top: 70vh;
+    left: 50%;
   }
 
-  /* .hold {
-    
-  } */
+  .hold {
+    top: 75vh;
+    left: 50%;
+  }
 }
