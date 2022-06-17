@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -190,7 +191,7 @@ main {
   main {
     width: 80vw;
     height: 60vh;
-    margin: 12vh auto;
+    margin: 10vh auto;
     flex-direction: column;
     overflow: visible;
   }
