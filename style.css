@@ -196,7 +196,7 @@ main {
   }
 
   .player {
-    height: 30%;
+    height: calc(60vh / 2);
   }
 
   .playerID {
