@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.4.1"
+    "parcel": "^2.6.0"
   }
 }

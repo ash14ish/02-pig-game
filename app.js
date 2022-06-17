@@ -17,7 +17,7 @@ let score2 = document.getElementById("score2");
 let plyr1 = document.querySelector(".player1");
 let plyr2 = document.querySelector(".player2");
 
-let bDice = document.querySelector(".dice");
+let bDice = document.querySelector(".roll");
 let bHold = document.querySelector(".hold");
 let bReset = document.querySelector(".reset");
 
