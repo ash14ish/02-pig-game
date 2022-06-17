@@ -243,23 +243,20 @@ main {
     top: -5rem;
   }
 
-  .player1 {
-    grid-area: player1;
-  }
-
   .dice {
-    order: 2;
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 5rem / 2);
+    border-radius: 4px;
+    height: 5rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   }
 
-  .player2 {
-    grid-area: player2;
-  }
-
-  .roll {
+  /* .roll {
     order: 4;
-  }
+  } */
 
-  .hold {
+  /* .hold {
     order: 4;
-  }
+  } */
 }
