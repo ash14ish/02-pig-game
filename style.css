@@ -195,6 +195,10 @@ main {
     overflow: visible;
   }
 
+  .player {
+    height: 30%;
+  }
+
   .playerID {
     font-size: 2.2rem;
   }
