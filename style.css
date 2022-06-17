@@ -254,9 +254,10 @@ main {
     padding-top: 3rem;
   }
 
-  /* .roll {
-    
-  } */
+  .roll {
+    top: 3rem;
+    left: 10vw;
+  }
 
   /* .hold {
     
