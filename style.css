@@ -14,7 +14,7 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  height: 100vh;
+  height: 90vh;
   color: #333;
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   display: flex;
@@ -163,8 +163,7 @@ main {
 }
 
 .winner {
-  /* background-color: #2f2f2f; */
-  animation: blinking 400ms 5 forwards linear;
+  animation: blinking 400ms 8 forwards linear;
 }
 
 .winner .playerID {
