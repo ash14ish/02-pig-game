@@ -205,12 +205,12 @@ main {
     letter-spacing: 0.4px;
     word-spacing: 0.4px;
     font-weight: 300;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
   }
 
   .score {
     font-size: 3.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .current {
@@ -248,9 +248,9 @@ main {
   } */
 
   .dice {
-    top: calc(50% - 5rem / 2);
+    top: calc(50% - 5.3rem / 2);
     border-radius: 4px;
-    height: 5rem;
+    height: 5.3rem;
   }
 
   /* .player2 {
