@@ -186,10 +186,15 @@ main {
 
 @media (max-width: 480px) {
   main {
-    /* flex-direction: column; */
+    flex-direction: column;
     height: 60vh;
     width: 90vw;
+    justify-content: space-between;
     align-content: flex-end;
+  }
+
+  #player2 {
+    margin-top: 1000px;
   }
 
   .player {
