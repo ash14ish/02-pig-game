@@ -230,9 +230,11 @@ main {
 
   .btn {
     transform: translateX(-50%);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
     padding: 0.7rem 0.6rem;
     border-radius: 50rem;
+    width: 30vw;
   }
 
   .btn::first-letter {
