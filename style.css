@@ -253,14 +253,15 @@ main {
     height: 5.3rem;
   }
 
-  /* .player2 {
-  } */
+  .player2 {
+    margin-top: 3rem;
+  }
 
   /* .roll {
-    order: 4;
+    
   } */
 
   /* .hold {
-    order: 4;
+    
   } */
 }
