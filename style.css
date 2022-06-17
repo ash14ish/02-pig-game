@@ -160,7 +160,7 @@ main {
 }
 
 .winner {
-  animation: blinking 400ms 8 forwards linear;
+  animation: blinking 600ms 6 forwards linear;
 }
 
 .winner .playerID {
@@ -190,7 +190,7 @@ main {
   main {
     width: 80vw;
     height: 60vh;
-    margin: 10vh auto;
+    margin: 14vh auto;
     flex-direction: column;
     overflow: visible;
   }
