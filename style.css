@@ -193,17 +193,13 @@ main {
     align-content: flex-end;
   }
 
-  #player2 {
-    margin-top: 1000px;
-  }
-
   .player {
     flex-basis: 30vh;
     padding: 1rem;
   }
 
   .playerID {
-    /* position: static; */
+    position: static;
     font-size: 2.2rem;
     margin-bottom: 0.3rem;
   }
@@ -259,8 +255,9 @@ main {
     margin-right: 0.7rem;
   }
 
-  .new {
-    top: 4rem;
+  .reset {
+    position: fixed;
+    top: -8rem;
   }
 
   .roll {
