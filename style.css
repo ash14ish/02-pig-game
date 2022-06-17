@@ -211,6 +211,7 @@ main {
 
   body {
     width: 100vw;
+    overflow-y: none;
   }
 
   main {
@@ -218,6 +219,7 @@ main {
     height: 85vh;
     margin: 0.2rem auto;
     border-radius: 9px;
+    display: block;
     flex-direction: column;
   }
 
