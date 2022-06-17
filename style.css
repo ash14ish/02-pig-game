@@ -13,12 +13,10 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  height: 100vh;
+  width: 100vw;
+  height: 95vh;
   color: #333;
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* LAYOUT */
@@ -33,6 +31,7 @@ main {
   border-radius: 9px;
   overflow: hidden;
   display: flex;
+  margin: 5vh auto;
 }
 
 .player {
@@ -182,6 +181,10 @@ main {
 }
 
 @media (max-width: 480px) {
+  body {
+    width: 100vw;
+  }
+
   .playerID {
     font-size: 2.2rem;
     margin-bottom: 0.3rem;
@@ -209,18 +212,15 @@ main {
     font-size: 3.5rem;
   }
 
-  body {
-    width: 100vw;
-    overflow-y: none;
-  }
-
   main {
     width: 85vw;
     height: 85vh;
     margin: 0.2rem auto;
     border-radius: 9px;
-    display: block;
-    flex-direction: column;
+    display: grid;
+    grid-template-areas:
+      ".  newgame  ."
+      "player1 player1 player1";
   }
 
   .btn {
