@@ -255,12 +255,12 @@ main {
   }
 
   .roll {
-    top: 60vh;
-    left: 50%;
+    top: 65vh;
+    left: 25%;
   }
 
   .hold {
     top: 65vh;
-    left: 50%;
+    left: 75%;
   }
 }
