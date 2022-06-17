@@ -199,10 +199,9 @@ main {
   }
 
   .playerID {
-    position: relative;
-    font-size: 3rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
+    position: static;
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
   }
 
   .score {
