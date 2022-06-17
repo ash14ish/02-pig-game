@@ -245,7 +245,7 @@ main {
   }
 
   .dice {
-    top: calc(50% - 8rem / 2);
+    top: calc(50% - 5rem / 2);
     border-radius: 4px;
     height: 5rem;
   }
