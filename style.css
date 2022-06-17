@@ -161,7 +161,7 @@ main {
 }
 
 .winner {
-  animation: blinking 600ms 3 backwards linear;
+  animation: blinking 600ms 3 forwards linear;
 }
 
 .winner .playerID {
