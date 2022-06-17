@@ -196,33 +196,35 @@ main {
   }
 
   .player {
+    padding: 1rem;
     height: calc(60vh / 2);
   }
 
   .playerID {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    letter-spacing: 0.4px;
+    word-spacing: 0.4px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
   }
 
   .score {
-    font-size: 4rem;
-    font-weight: 300;
+    font-size: 3.5rem;
   }
 
   .current {
     width: 40%;
     padding: 0.2rem;
-    text-align: center;
-    transition: all 0.75s;
+    padding-top: 0.6rem;
   }
 
   .current-label {
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
   }
 
   .current-score {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
   }
 
   .btn {
