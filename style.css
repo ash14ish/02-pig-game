@@ -181,7 +181,7 @@ main {
   }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   body {
     width: 100vw;
     height: 100vh;
@@ -190,23 +190,13 @@ main {
   main {
     width: 80vw;
     height: 80vh;
-    margin: 0.2rem auto;
-    border-radius: 9px;
-    display: flex;
-    align-items: center;
-  }
-
-  .player1 {
-    grid-area: player1;
-  }
-
-  .player2 {
-    grid-area: player2;
+    margin: 10vh auto;
+    flex-direction: column;
+    overflow: visible;
   }
 
   .playerID {
     font-size: 2.2rem;
-    margin-bottom: 0.3rem;
   }
 
   .score {
@@ -232,12 +222,9 @@ main {
   }
 
   .btn {
-    
     transform: translateX(-50%);
-    font-size: 1.8rem;
-    z-index: 1000;
-
-    padding: 0.7rem 0.4rem;
+    font-size: 1.1rem;
+    padding: 0.7rem 0.6rem;
     border-radius: 50rem;
   }
 
@@ -247,19 +234,26 @@ main {
   }
 
   .reset {
-    grid-row-start: 1;
+    top: -5rem;
   }
 
-  .roll {
-    grid-area: roll;
-  }
-
-  .hold {
-    grid-area: hold;
+  .player1 {
+    grid-area: player1;
   }
 
   .dice {
-    grid-area: dice;
-    height: 10rem;
+    order: 2;
   }
-} */
+
+  .player2 {
+    grid-area: player2;
+  }
+
+  .roll {
+    order: 4;
+  }
+
+  .hold {
+    order: 4;
+  }
+}
