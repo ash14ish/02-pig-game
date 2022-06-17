@@ -184,7 +184,7 @@ main {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 480px) {
   main {
     flex-direction: column;
     height: 90vh;
@@ -209,45 +209,23 @@ main {
     font-weight: 300;
   }
 
-  .active {
-    background-color: rgba(255, 255, 255, 0.4);
-  }
-
-  .active .playerID {
-    font-weight: 700;
-  }
-
-  .active .score {
-    font-weight: 400;
-  }
-
-  .active .current {
-    opacity: 1;
-  }
-
   .current {
-    background-color: #c7365f;
-    opacity: 0.8;
-    border-radius: 9px;
-    color: #fff;
-    width: 65%;
-    padding: 2rem;
+    width: 40%;
+    padding: 0.2rem;
     text-align: center;
     transition: all 0.75s;
   }
 
   .current-label {
     text-transform: uppercase;
-    margin-bottom: 1rem;
-    font-size: 1.7rem;
-    color: #ddd;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
   }
 
   .current-score {
     font-size: 3.5rem;
   }
 
-  /* ABSOLUTE POSITIONED ELEMENTS */
   .btn {
     position: absolute;
     left: 50%;
