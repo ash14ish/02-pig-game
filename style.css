@@ -249,9 +249,9 @@ main {
   }
 
   .dice {
-    top: calc(50% - 9.3rem / 2);
+    top: calc(50% - 9rem / 2);
     border-radius: 4px;
-    height: 5.3rem;
+    height: 5rem;
   }
 
   .player2 {
