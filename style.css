@@ -244,14 +244,18 @@ main {
     top: -5rem;
   }
 
+  .player1 {
+    margin-bottom: 2rem;
+  }
+
   .dice {
-    top: calc(50% - 8.3rem / 2);
+    top: calc(50% - 9.3rem / 2);
     border-radius: 4px;
     height: 5.3rem;
   }
 
   .player2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   /* .roll {
