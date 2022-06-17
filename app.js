@@ -78,7 +78,7 @@ bHold.addEventListener("click", function () {
     total[activePlayer - 1] += currentScore;
     document.getElementById(`score${activePlayer}`).textContent =
       total[activePlayer - 1];
-    if (total[activePlayer - 1] <= 10) {
+    if (total[activePlayer - 1] <= 100) {
       switchPlayer();
     } else {
       document.querySelector(`.player${activePlayer}`).classList.add("winner");
