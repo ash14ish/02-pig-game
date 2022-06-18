@@ -189,15 +189,15 @@ main {
 
   main {
     width: 80vw;
-    height: 56vh;
-    margin: 10vh auto;
+    height: 54vh;
+    margin: 12vh auto;
     flex-direction: column;
     overflow: visible;
   }
 
   .player {
     padding: 1rem;
-    height: calc(56vh - 1rem / 2);
+    height: calc(50% - 2rem);
   }
 
   .playerID {
