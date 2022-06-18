@@ -213,7 +213,7 @@ main {
     word-spacing: 0.4px;
     font-weight: 300;
     margin: 1rem auto;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0;
   }
 
   .player1 {
