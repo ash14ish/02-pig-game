@@ -226,8 +226,8 @@ main {
 
   .score {
     font-size: 3.5rem;
-    margin-top: 0.2rem;
-    margin-bottom: 0.7rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
 
   .current {
