@@ -190,15 +190,15 @@ main {
 
   main {
     width: 80vw;
-    height: 55vh;
-    margin: 13vh auto;
+    height: 52vh;
+    margin: 10vh auto;
     flex-direction: column;
     overflow: visible;
   }
 
   .player {
     padding: 1rem;
-    height: calc(55vh - 1rem / 2);
+    height: calc(52vh - 1rem / 2);
   }
 
   .playerID {
