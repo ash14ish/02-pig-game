@@ -264,24 +264,16 @@ main {
   }
 }
 
-/* @media (max-width: 390px) {
+@media (max-width: 390px) {
   body {
     overflow: visible;
   }
 
   main {
     height: 50vh;
-    margin: 13vh auto;
-  }
-
-  .dice {
-    top: calc(50% - 5rem / 2);
-    border-radius: 4px;
-    height: 5rem;
   }
 
   .player {
-    padding: 1rem;
     height: calc(50vh - 1rem / 2);
   }
 
@@ -289,9 +281,12 @@ main {
     font-size: 1.6rem;
     letter-spacing: 0.2px;
     word-spacing: 0.2px;
-    font-weight: 300;
     margin-bottom: 0;
   }
+
+  /* .playerID {
+    margin: 1rem auto;
+  } */
 
   .score {
     font-size: 3.2rem;
@@ -301,6 +296,11 @@ main {
   .current-label {
     font-size: 1.3rem;
   }
+
+  /* .current-label {
+    margin-bottom: 0.2rem;
+   
+  } */
 
   .current-score {
     font-size: 2.5rem;
@@ -320,12 +320,14 @@ main {
     margin-right: 0;
   }
 
-  .player2 {
-    padding-top: 1rem;
-  }
-
   .reset {
     top: -5rem;
+  }
+
+  .dice {
+    top: calc(50% - 5rem / 2);
+    border-radius: 4px;
+    height: 5rem;
   }
 
   .roll {
@@ -337,4 +339,4 @@ main {
     top: 65vh;
     left: 75%;
   }
-} */
+}
