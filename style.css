@@ -197,7 +197,7 @@ main {
 
   .player {
     padding: 1rem;
-    height: calc(50% - 2rem);
+    height: 50%;
   }
 
   .playerID {
@@ -273,7 +273,7 @@ main {
   }
 
   .player {
-    height: calc(50vh - 1rem / 2);
+    height: 50%;
   }
 
   .playerID {
