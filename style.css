@@ -318,21 +318,6 @@ main {
     font-size: 1.1rem;
   }
 
-  /* .btn {
-    position: fixed;
-    transform: translateX(-50%);
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 0.7rem 0.6rem;
-    border-radius: 50rem;
-    width: 30vw;
-  } */
-
-  /* .btn::first-letter {
-    font-size: 1.4rem;
-    margin-right: 0;
-  } */
-
   .reset {
     top: 62.5vh;
     left: 50%;
@@ -346,5 +331,17 @@ main {
   .hold {
     top: 55.5vh;
     left: 75%;
+  }
+}
+
+@media (max-width: 324px) {
+  .btn {
+    font-size: 1.05rem;
+    width: 35vw;
+    padding-right: 1rem;
+  }
+
+  .btn::first-letter {
+    font-size: 1.25rem;
   }
 }
