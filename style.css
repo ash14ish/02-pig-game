@@ -281,11 +281,8 @@ main {
     letter-spacing: 0.2px;
     word-spacing: 0.2px;
     margin-bottom: 0;
-  }
-
-  /* .playerID {
     margin: 1rem auto;
-  } */
+  }
 
   .score {
     font-size: 3.2rem;
