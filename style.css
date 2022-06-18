@@ -206,7 +206,7 @@ main {
     letter-spacing: 0.4px;
     word-spacing: 0.4px;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
   }
 
   .score {
