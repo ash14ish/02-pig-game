@@ -261,6 +261,14 @@ main {
     top: 65vh;
     left: 75%;
   }
+
+  .player1 {
+    border-radius: 9px 9px 0 0;
+  }
+
+  .player2 {
+    border-radius: 0 0 9px 9px;
+  }
 }
 
 @media (max-width: 390px) {
