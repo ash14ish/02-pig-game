@@ -258,17 +258,17 @@ main {
   }
 
   .reset {
-    top: 64vh;
+    top: 66vh;
     left: 50%;
   }
 
   .roll {
-    top: 58vh;
+    top: 57vh;
     left: 25%;
   }
 
   .hold {
-    top: 58vh;
+    top: 57vh;
     left: 75%;
   }
 }
@@ -303,11 +303,6 @@ main {
     font-size: 1.3rem;
   }
 
-  /* .current-label {
-    margin-bottom: 0.2rem;
-   
-  } */
-
   .current-score {
     font-size: 2.5rem;
   }
@@ -330,7 +325,7 @@ main {
     top: -5rem;
   }
 
-  .dice {
+  /* .dice {
     top: calc(50% - 5rem / 2);
     border-radius: 4px;
     height: 5rem;
@@ -344,5 +339,5 @@ main {
   .hold {
     top: 65vh;
     left: 75%;
-  }
+  } */
 }
