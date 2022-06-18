@@ -195,6 +195,12 @@ main {
     overflow: visible;
   }
 
+  .dice {
+    top: calc(50% - 5rem / 2);
+    border-radius: 4px;
+    height: 5rem;
+  }
+
   .player {
     padding: 1rem;
     height: 50%;
@@ -206,6 +212,14 @@ main {
     word-spacing: 0.4px;
     font-weight: 300;
     margin: 1rem auto;
+  }
+
+  .player1 {
+    border-radius: 9px 9px 0 0;
+  }
+
+  .player2 {
+    border-radius: 0 0 9px 9px;
   }
 
   .score {
@@ -229,6 +243,7 @@ main {
   }
 
   .btn {
+    position: fixed;
     transform: translateX(-50%);
     font-size: 1.2rem;
     font-weight: bold;
@@ -243,31 +258,18 @@ main {
   }
 
   .reset {
-    top: -5rem;
-  }
-
-  .dice {
-    top: calc(50% - 5rem / 2);
-    border-radius: 4px;
-    height: 5rem;
+    top: 64vh;
+    left: 50%;
   }
 
   .roll {
-    top: 65vh;
+    top: 58vh;
     left: 25%;
   }
 
   .hold {
-    top: 65vh;
+    top: 58vh;
     left: 75%;
-  }
-
-  .player1 {
-    border-radius: 9px 9px 0 0;
-  }
-
-  .player2 {
-    border-radius: 0 0 9px 9px;
   }
 }
 
