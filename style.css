@@ -267,3 +267,86 @@ main {
     left: 75%;
   }
 }
+
+@media (max-width: 390px) {
+  body {
+    overflow: visible;
+  }
+  main {
+    height: 50vh;
+    margin: 13vh auto;
+  }
+
+  /* LAYOUT */
+
+  .player {
+    padding: 1rem;
+    height: calc(60vh - 1rem / 2);
+  }
+
+  .playerID {
+    font-size: 2rem;
+    letter-spacing: 0.4px;
+    word-spacing: 0.4px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  .score {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .current {
+    width: 40%;
+    padding: 0.2rem;
+    padding-top: 0.6rem;
+  }
+
+  .current-label {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+  }
+
+  .current-score {
+    font-size: 2.8rem;
+  }
+
+  .btn {
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.7rem 0.6rem;
+    border-radius: 50rem;
+    width: 30vw;
+  }
+
+  .btn::first-letter {
+    font-size: 1.4rem;
+    margin-right: 0;
+  }
+
+  .reset {
+    top: -5rem;
+  }
+
+  .dice {
+    top: calc(50% - 5rem / 2);
+    border-radius: 4px;
+    height: 5rem;
+  }
+
+  .player2 {
+    padding-top: 3rem;
+  }
+
+  .roll {
+    top: 65vh;
+    left: 25%;
+  }
+
+  .hold {
+    top: 65vh;
+    left: 75%;
+  }
+}
