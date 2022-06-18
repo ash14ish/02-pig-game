@@ -196,7 +196,9 @@ main {
   }
 
   .dice {
-    top: calc(50% - 5rem / 2);
+    top: 0;
+    position: fixed;
+    top: -18%;
     border-radius: 4px;
     height: 5rem;
   }
