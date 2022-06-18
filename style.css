@@ -209,27 +209,6 @@ main {
     margin-bottom: 1rem;
   }
 
-  /* .playerID {
-    font-size: 1.6rem;
-    letter-spacing: 0.2px;
-    word-spacing: 0.2px;
-    font-weight: 300;
-    margin-bottom: 0;
-  }
-
-  .score {
-    font-size: 3.2rem;
-    margin-bottom: 1rem;
-  }
-
-  .current-label {
-    font-size: 1.3rem;
-  }
-
-  .current-score {
-    font-size: 2.5rem;
-  } */
-
   .score {
     font-size: 3.5rem;
     margin-bottom: 2.5rem;
@@ -272,10 +251,6 @@ main {
     top: calc(50% - 5rem / 2);
     border-radius: 4px;
     height: 5rem;
-  }
-
-  .player2 {
-    padding-top: 3rem;
   }
 
   .roll {
