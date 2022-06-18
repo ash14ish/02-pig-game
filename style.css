@@ -308,22 +308,12 @@ main {
   }
 
   .btn {
-    transform: translateX(-50%);
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 0.7rem 0.6rem;
-    border-radius: 50rem;
-    width: 30vw;
+    font-size: 1.1rem;
   }
 
-  .btn::first-letter {
-    font-size: 1.4rem;
-    margin-right: 0;
-  }
-
-  .reset {
+  /* .reset {
     top: -5rem;
-  }
+  } */
 
   /* .dice {
     top: calc(50% - 5rem / 2);
