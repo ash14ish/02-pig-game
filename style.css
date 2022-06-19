@@ -334,7 +334,7 @@ main {
 
 @media (max-width: 375px) {
   .btn {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     width: 35vw;
     padding-right: 1rem;
   }
@@ -345,7 +345,7 @@ main {
 
   main {
     height: 55%;
-    margin: 13vh auto;
+    margin: 20% auto;
   }
 
   .btn {
