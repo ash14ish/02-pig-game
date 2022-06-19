@@ -349,7 +349,11 @@ main {
   }
 
   .btn::first-letter {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+  }
+
+  .playerID {
+    margin-top: 1rem;
   }
 
   .reset {
