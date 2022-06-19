@@ -355,11 +355,6 @@ main {
     height: 4rem;
   }
 
-  .reset {
-    top: -10%;
-    left: 50%;
-  }
-
   .roll {
     top: 65vh;
     left: 20%;
@@ -368,5 +363,10 @@ main {
   .hold {
     top: 65vh;
     left: 80%;
+  }
+
+  .reset {
+    top: 72vh;
+    left: 50%;
   }
 }
