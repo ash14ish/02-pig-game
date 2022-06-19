@@ -277,6 +277,10 @@ main {
 }
 
 @media (max-width: 390px) {
+  /* body {
+    overflow: visible;
+  } */
+
   main {
     height: 50vh;
     margin: 13vh auto;
@@ -332,47 +336,14 @@ main {
   }
 }
 
-@media (max-width: 375px) {
-  body {
-    width: 100%;
-  }
-
-  main {
-    height: 60vh;
-    margin: 13vh auto;
-  }
-
-  .dice {
-    top: 7%;
-    height: 4rem;
-  }
-
+@media (max-width: 324px) {
   .btn {
-    font-size: 0.9rem;
-    width: 30vw;
-    padding-right: 0.4rem;
+    font-size: 1.05rem;
+    width: 35vw;
+    padding-right: 1rem;
   }
 
   .btn::first-letter {
-    font-size: 1.15rem;
-  }
-
-  .player {
-    padding-top: 1rem;
-  }
-
-  .reset {
-    top: -10%;
-    left: 50%;
-  }
-
-  .roll {
-    top: 55.5vh;
-    left: 25%;
-  }
-
-  .hold {
-    top: 55.5vh;
-    left: 75%;
+    font-size: 1.25rem;
   }
 }
