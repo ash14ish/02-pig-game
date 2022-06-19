@@ -277,9 +277,9 @@ main {
 }
 
 @media (max-width: 390px) {
-  /* body {
+  body {
     overflow: visible;
-  } */
+  }
 
   main {
     height: 50vh;
