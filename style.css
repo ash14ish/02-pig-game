@@ -277,12 +277,12 @@ main {
 }
 
 @media (max-width: 390px) {
-  body {
+  /* body {
     overflow: visible;
-  }
+  } */
 
   main {
-    height: 100vh;
+    height: 50vh;
     margin: 13vh auto;
   }
 
@@ -337,6 +337,9 @@ main {
 }
 
 @media (max-width: 324px) {
+  /* body {
+    overflow: visible;
+  } */
   .btn {
     font-size: 1.05rem;
     width: 35vw;
