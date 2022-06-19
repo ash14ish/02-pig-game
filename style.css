@@ -342,6 +342,11 @@ main {
     margin: 13vh auto;
   }
 
+  .dice {
+    top: 10%;
+    height: 4.2rem;
+  }
+
   .btn {
     font-size: 0.9rem;
     width: 30vw;
@@ -369,10 +374,5 @@ main {
   .hold {
     top: 55.5vh;
     left: 75%;
-  }
-
-  .dice {
-    top: -18%;
-    height: 4.2rem;
   }
 }
