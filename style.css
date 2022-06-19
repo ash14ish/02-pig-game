@@ -348,13 +348,9 @@ main {
   .btn::first-letter {
     font-size: 1.15rem;
   }
-  /* 
-  .player {
-    padding-top: 1rem;
-  } */
 
   .dice {
-    top: 80%;
+    top: 80vh;
     height: 4rem;
   }
 
