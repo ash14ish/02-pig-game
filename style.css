@@ -277,10 +277,6 @@ main {
 }
 
 @media (max-width: 390px) {
-  /* body {
-    overflow: visible;
-  } */
-
   main {
     height: 50vh;
     margin: 13vh auto;
@@ -345,5 +341,34 @@ main {
 
   .btn::first-letter {
     font-size: 1.25rem;
+  }
+
+  main {
+    height: 60vh;
+    margin: 5vh auto;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+  }
+
+  .reset {
+    top: 62.5vh;
+    left: 50%;
+  }
+
+  .roll {
+    top: 55.5vh;
+    left: 25%;
+  }
+
+  .hold {
+    top: 55.5vh;
+    left: 75%;
+  }
+
+  .dice {
+    top: -18%;
+    height: 4.2rem;
   }
 }
