@@ -336,10 +336,10 @@ main {
   }
 }
 
-@media (max-width: 324px) {
-  /* body {
+@media (max-width: 350px) {
+  body {
     overflow: visible;
-  } */
+  }
   .btn {
     font-size: 1.05rem;
     width: 35vw;
