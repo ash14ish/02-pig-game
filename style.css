@@ -339,10 +339,11 @@ main {
   }
 
   .btn {
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bolder;
     width: 30vw;
-    padding-right: 0.4rem;
+    padding: 0.8rem;
+    margin: auto;
   }
 
   .btn::first-letter {
