@@ -352,12 +352,12 @@ main {
     font-size: 1.15rem;
   }
 
-  .playerID {
-    margin-top: 1rem;
+  .player {
+    padding-top: 1rem;
   }
 
   .reset {
-    top: 62.5vh;
+    top: -10%;
     left: 50%;
   }
 
