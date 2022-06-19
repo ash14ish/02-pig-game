@@ -334,8 +334,8 @@ main {
 
 @media (max-width: 375px) {
   main {
-    height: 50vh;
-    margin: 13vh auto;
+    height: 55vh;
+    margin: 5vh auto;
   }
 
   .dice {
