@@ -336,7 +336,7 @@ main {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 370px) {
   body {
     overflow: visible;
   }
