@@ -337,6 +337,11 @@ main {
     width: 100%;
   }
 
+  main {
+    height: 60vh;
+    margin: 13vh auto;
+  }
+
   .btn {
     font-size: 0.95rem;
     width: 35vw;
@@ -345,11 +350,6 @@ main {
 
   .btn::first-letter {
     font-size: 1.25rem;
-  }
-
-  main {
-    height: 60vh;
-    margin: 20% auto;
   }
 
   .btn {
