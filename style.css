@@ -337,20 +337,10 @@ main {
 }
 
 @media (max-width: 375px) {
-  body {
-    overflow: visible;
-  }
   .btn {
     font-size: 1.05rem;
     width: 35vw;
     padding-right: 1rem;
-  }
-
-  .button::before,
-  .player::before {
-    content: "Hello moti";
-
-    font-size: 3rem;
   }
 
   .btn::first-letter {
