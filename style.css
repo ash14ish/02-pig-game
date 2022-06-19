@@ -343,17 +343,13 @@ main {
   }
 
   .btn {
-    font-size: 0.95rem;
-    width: 35vw;
-    padding-right: 1rem;
+    font-size: 0.9rem;
+    width: 30vw;
+    padding-right: 0.4rem;
   }
 
   .btn::first-letter {
     font-size: 1.25rem;
-  }
-
-  .btn {
-    font-size: 1.1rem;
   }
 
   .reset {
