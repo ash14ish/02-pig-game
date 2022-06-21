@@ -8,6 +8,7 @@
 // import dice6 from "url:./dice/dice-6.png";
 
 // const diceImg = [dice1, dice2, dice3, dice4, dice5, dice6];
+
 let current1 = document.getElementById("current-1");
 let current2 = document.getElementById("current-2");
 
