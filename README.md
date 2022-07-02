@@ -4,7 +4,7 @@ _A game where players roll a single dice as many times as they wish, adding all 
 
 ## Project URL
 
-[Start rolling](https://epig-game.netlify.app/).
+[Start rolling](https://epig-game.netlify.app/)
 
 ## Tech
 
